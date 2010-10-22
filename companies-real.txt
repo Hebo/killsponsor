@@ -1,0 +1,101 @@
+Wal-Mart Stores
+Exxon Mobil
+Chevron
+General Electric
+Bank of America Corp.
+AT&T
+Ford Motor
+J.P. Morgan Chase & Co.
+Hewlett-Packard
+Berkshire Hathaway
+Citigroup
+Verizon Communications
+General Motors
+American International Group
+Cardinal Health
+CVS Caremark
+Wells Fargo
+International Business Machines
+UnitedHealth Group
+Procter & Gamble
+Kroger
+AmerisourceBergen
+Costco Wholesale
+Valero Energy
+Archer Daniels Midland
+Boeing
+Home Depot
+Target
+WellPoint
+Walgreen
+Johnson & Johnson
+State Farm Insurance Cos.
+Medco Health Solutions
+Microsoft
+United Technologies
+Dell
+Goldman Sachs Group
+Pfizer
+Marathon Oil
+Lowe's
+United Parcel Service
+Lockheed Martin
+Best Buy
+Dow Chemical
+Supervalu
+Sears Holdings
+International Assets Holding
+PepsiCo
+MetLife
+Safeway
+Kraft Foods
+Freddie Mac
+Apple
+Walt Disney
+Cisco Systems
+Comcast
+FedEx
+Northrop Grumman
+Intel
+Aetna
+New York Life Insurance
+Prudential Financial
+Caterpillar
+Sprint Nextel
+Allstate
+General Dynamics
+Morgan Stanley
+Liberty Mutual Insurance Group
+Coca-Cola
+Humana
+Honeywell International
+Abbott Laboratories
+News Corp.
+Ingram Micro
+Fannie Mae
+Time Warner
+Johnson Controls
+Delta Air Lines
+Merck
+DuPont
+Tyson Foods
+American Express
+Rite Aid
+TIAA-CREF
+Enterprise GP Holdings
+Massachusetts Mutual Life Insurance
+Philip Morris International
+Raytheon
+Express Scripts
+Hartford Financial Services
+Travelers Cos.
+Publix Super Markets
+Amazon.com
+Staples
+Google
+Macy's
+International Paper
+Oracle
+3M
+BP
+McDonald's
