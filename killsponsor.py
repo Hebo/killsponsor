@@ -1,13 +1,14 @@
 import random
 
-random.seed()
-
+# Preferences
 BINDS_WANTED = 80
+ADJECTIVE_CHANCE = .75
+SECOND_COMPANY_CHANCE = .5
+
 
 class Companies:
     """Store company data"""
     companies = None
-    chosen = None
 
     @classmethod
     def init(cls):
@@ -24,7 +25,7 @@ class Companies:
             cls.init()
         
         chosen = random.choice(cls.companies)
-        Companies.companies.remove(chosen)
+        cls.companies.remove(chosen)
 
         return chosen
 
@@ -39,7 +40,7 @@ def create_sentence():
     sentence = "This"
     
     # adjective
-    if random.random() < .75:
+    if random.random() < ADJECTIVE_CHANCE:
         sentence += " " + random.choice(Text.score_adj)
     
     # append score    
@@ -52,7 +53,7 @@ def create_sentence():
     sentence += " " + Companies.get()
    
     # decide whether to add second company
-    if random.random() < .5:
+    if random.random() < SECOND_COMPANY_CHANCE:
         sentence += " and " + Companies.get()
     
     sentence += "!"
@@ -64,6 +65,7 @@ with open("binds.cfg", "w") as f:
     f.write('// ******************\n// Sponsored Killing\n// ******************\n')
     f.write('alias "sponsorSwitch" "sponsor1next"\n')
     f.write('alias "sponsorSay" "sponsor1say"\n')
+
     for i in range(1,BINDS_WANTED + 1):
         if not i == BINDS_WANTED:
             f.write('alias "sponsor{0}say" "say {1}"\n'.format(i, create_sentence()))
